@@ -96,7 +96,7 @@ namespace Setup_EvoGS_Rep
                     if (!File.Exists("TortoiseSVN.msi"))
                     {
                         WebClient WebClt = new WebClient();
-                        WebClt.DownloadFile("https://ftp.halifax.rwth-aachen.de/osdn/storage/g/t/to/tortoisesvn/1.14.5/Application/TortoiseSVN-1.14.5.29465-x64-svn-1.14.2.msi", "TortoiseSVN.msi");
+                        WebClt.DownloadFile("https://sinalbr.dl.sourceforge.net/project/tortoisesvn/1.14.5/Application/TortoiseSVN-1.14.5.29465-x64-svn-1.14.2.msi", "TortoiseSVN.msi");
                     }
 
                     Setup_PB.Value = 40;
